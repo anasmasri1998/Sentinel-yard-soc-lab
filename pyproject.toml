@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "sentinel-yard"
+version = "0.1.0"
+description = "Reproducible offline SOC investigation lab"
+requires-python = ">=3.10"
+[project.scripts]
+sentinel-yard = "soclab.cli:main"
+[tool.setuptools.packages.find]
+include = ["soclab*"]

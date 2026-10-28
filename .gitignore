@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+lab-data/
+*.egg-info/
+.env
+*.pem
+*.key
+.DS_Store
+desktop.ini
